@@ -1,0 +1,38 @@
+allow-nether-core: true
+max-nether-time: 120 #Seconds
+end-on-death: false
+
+##Here you can set what items can spawn durring the nether core event
+##As well you can set up what entities will randomly spawn in the area
+resources:
+    entities:
+        Zombified_Piglin:
+            perc-chance: 30 #Percent chance of a zombie piglin to spawn
+            min-spawn: 1
+            max-spawn: 3
+        Piglin:
+            perc-chance: 40
+            min-spawn: 1
+            max-spawn: 3
+        Blaze:
+            perc-chance: 20
+            min-spawn: 2
+            max-spawn: 5
+        Wither_Skeleton:
+            perc-chance: 10
+            min-spawn: 1
+            max-spawn: 2
+    items:
+        Glowstone_dust:
+            perc-chance: 40
+            min-items: 1
+            max-items: 10 #Range of how many items can spawn each time (In this case a range of 1-10 glowstone will spawn)
+        Ghast_tear:
+            perc-chance: 20
+            min-items: 1
+            max-items: 3
+        Soul_Sand:
+            perc-chance: 30
+            min-items: 6
+            max-items: 12
+        

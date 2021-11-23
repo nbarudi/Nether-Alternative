@@ -1,0 +1,6 @@
+name: NetherAlternative
+version: 1.0
+main: ca.bungo.nalternative.main.NetherAlternative
+commands:
+  getlist:
+    usage: /getlist <entity/items>
